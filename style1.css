@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 700px;
+    background-color: #86AB89;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A28B55;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+.navbar .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+.navbar .logo h1:hover {
+    color: black;
+    
+}
+
+/* Form Container */
+.form-container {
+    padding: 30px;
+}
+
+.form-container h2 {
+    text-align:center;
+    margin-bottom: 20px;
+    color: #3C2A21;
+    font-size: 28px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #0044cc;
+    outline: none;
+}
+
+.form-actions {
+    text-align: center;
+}
+
+.submit-btn {
+    background-color: #76453B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.submit-btn:hover {
+    background-color: #3C2A21;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar .nav-links li {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+/* Success Animation */
+.success-animation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50; /* Green for success */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+    z-index: 9999;
+}
+
+/* Error Animation */
+.error-animation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f44336; /* Red for error */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+    z-index: 9999;
+}
+.image{
+    border-radius: 10%;
+}
