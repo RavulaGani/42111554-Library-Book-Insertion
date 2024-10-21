@@ -5,7 +5,7 @@ The Library Book Insertion System is a lightweight and efficient application des
 ## Project: Library Management System Documentation
 
 ## Watch the Video
-![techStack](https://github.com/rid17pawar/HospitalManagement/assets/47048717/0b9e95e2-b3f0-41bb-b76f-75c275273389)
+![Demo](https://github.com/RavulaGani/42111554-Library-Book-Insertion/blob/main/Demo.mp4)
 ## Problem statement: 
 Create webpage for Library Management System to insert 
 bookdetails into database(Book ID, Name of the book, Author 
