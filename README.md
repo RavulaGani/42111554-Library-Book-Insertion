@@ -2,10 +2,11 @@
 The Library Book Insertion System is a lightweight and efficient application designed to simplify the process of adding new books to a library's catalog. This system automates book cataloging by capturing critical details such as Bid,Bname, author, and publication year, ensuring an organized and error-free inventory.
 
 
-Project: Library Management System DocumentaƟon
+## Project: Library Management System Documentation
 
-
-Problem statement: 
+## Watch the Video
+[![Watch the video](https://img.youtube.com/vi/abcd1234/0.jpg)](https://www.youtube.com/watch?v=abcd1234)
+## Problem statement: 
 Create webpage for Library Management System to insert 
 bookdetails into database(Book ID, Name of the book, Author 
 Name, Year of publication) using HTML, CSS, JS, PHP and 
